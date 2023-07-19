@@ -35,6 +35,7 @@ header {
     background-color: palegoldenrod;
 }
 
+/* ------------------ nav-part -------------------------*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -140,6 +141,46 @@ ul li a {
     position: relative;
     bottom: 160px;
     margin: 0;
+}
+
+/* ------------features------------- */
+
+.features-container {
+    max-width: 100%;
+    height: 200px;
+}
+
+.first-features {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+
+.btn-white {
+    font-size: .8rem;
+    font-weight: 600;
+    border: 1px solid #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 50px;
+    color: #0B0223;
+}
+
+.btn-white img {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.second-features {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ---------------Footer ---------------*/
