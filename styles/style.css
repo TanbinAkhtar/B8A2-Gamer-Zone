@@ -31,9 +31,7 @@ body {
 }
 
 /*------------Header-part ------------*/
-header {
-    background-color: palegoldenrod;
-}
+
 
 /* ------------------ nav-part -------------------------*/
 nav {
@@ -48,9 +46,9 @@ nav {
 
 nav>ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding-right: 80px;
+
 
 }
 
@@ -91,6 +89,83 @@ ul li a {
 
 }
 
+
+/* --------------Banner part --------------- */
+
+.banner-container {
+    max-width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+
+}
+
+
+.banner-contant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/Group\ 14.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 500px;
+
+}
+
+.banner-img img {
+    margin-right: 340px;
+    max-width: 100%;
+    height: 400px;
+}
+
+
+
+/*----------------Funny Videos --------------------*/
+
+.funny-videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.card img {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    height: 240px;
+}
+
+.card p {
+    text-align: center;
+    width: 90%;
+    height: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    color: #FF42A5;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 240px;
+    background-image: url(../images/Rectangle\ 7.png);
+    position: relative;
+    bottom: 25px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 
 
@@ -183,6 +258,11 @@ ul li a {
     justify-content: center;
 }
 
+.features-container button:hover {
+    border: 1px solid red;
+    color: red;
+}
+
 /* ---------------Footer ---------------*/
 
 footer {
@@ -211,7 +291,7 @@ footer {
 }
 
 .footer-contant {
-    margin-top: 56px auto;
+    margin-top: 40px auto;
     width: 1314px;
 }
 
@@ -238,7 +318,7 @@ footer {
 .terms-privacy-policy {
     max-width: 100%;
     height: 39px;
-    margin-top: 54px;
+    margin-top: 40px;
 }
 
 .terms-privacy-policy ul {
@@ -275,23 +355,3 @@ footer {
     font-weight: 500;
     color: rgba(255, 255, 255, 0.60);
 }
-
-/* --------------Banner part --------------- */
-/* .banner-container {
-    display: flex;
-    justify-content: center;
-
-}
-
-
-.banner-contant {
-    width: 901px;
-    height: 700px;
-
-}
-
-.banner-img img {
-    width: 100%;
-    background-color: #FFF;
-    height: 600px;
-} */
